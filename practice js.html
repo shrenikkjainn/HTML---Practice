@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>ndfndsuifs</p>
+    <p id="demo">rfhuirhuri</p>
+    <p id="intro">jo bhi text hai</p>
+    <p class="demo2">dsfdsfsdfsdfsdf</p>
+    <p class="demo2">sadasdsdasdasd</p>
+    <script>
+       console.log(10+6);
+       var1=10
+       var2=20
+       //comment
+       /*multi line comments*/
+       var age= 28
+       if (age<18)
+            document.write("you cant vote")
+        else if (age<20)
+            document.write("above 20")
+       else
+            document.write("you can vote")
+        var grade= "D"
+        switch(grade)
+        {
+            case"A":
+                document.write("A");
+                break;
+            case"B":
+                document.write("B");
+                break;
+            case"C":
+                document.write("C");
+                break;
+            case"D":
+                document.write("D");
+                break;
+            default:
+                document.write("UJ")
+                break;
+        }
+        for (var i=0; i<10; i++)
+        {
+            if(i==3)
+            continue
+        document.write(i)
+        }
+
+        var i = 0;
+        do {
+            document.write( i + "<br>")
+            i++
+        }
+while (i <= 10);
+        function xyz()
+        {
+            confirm("humpe toh hai hi naww")
+        }
+// dialog boxes like alert confirm prompt
+        function add(a,b=10)
+        {
+            document.write("<br>")
+            document.write(a+b);
+        }
+        var a=10; var b= 25
+        add(a,b);
+        add(a);
+        function pop()
+        {
+        var s;
+        s=prompt("you have entered")
+        }
+    
+        var xyz = {name:"uciudcdicdcdi", color:"red"}
+        document.write(xyz.name)
+
+        document.getElementById("demo").innerHTML="Hello World!";
+
+        const element = document.getElementById("intro");
+        document.getElementById("demo").innerHTML=
+        "The text from the intro paragragh is: " + element.innerHTML;
+    </script>
+     
+</body>
+<form>
+    <input type="button" onclick="xyz()">
+    <input type="button" onclick="pop()">
+
+</form>
+</html>
